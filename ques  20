@@ -1,0 +1,213 @@
+1. Reverse a String Without Using Built-in Functions
+
+Write a program to reverse a given string without using any built-in string functions.
+
+Example:
+
+    Input: hello
+
+    Output: olleh
+
+2. Check if Two Strings are Anagrams
+
+Write a program that checks if two strings are anagrams (i.e., both strings contain the same characters but in a different order). The program should be case-insensitive.
+
+Example:
+
+    Input: listen, silent
+
+    Output: Yes, they are anagrams
+
+3. Count Vowels and Consonants in a String
+
+Write a program to count the number of vowels and consonants in a given string. Assume that the string contains only lowercase and uppercase English letters.
+
+Example:
+
+    Input: hello world
+
+    Output: Vowels: 3, Consonants: 7
+
+4. Remove All Occurrences of a Character in a String
+
+Write a program that removes all occurrences of a given character from a string.
+
+Example:
+
+    Input: hello world, Character to remove: o
+
+    Output: hell wrld
+
+5. Find the First Non-Repeating Character in a String
+
+Write a program to find the first non-repeating character in a string. If no such character exists, return -1.
+
+Example:
+
+    Input: swiss
+
+    Output: w
+
+6. Substring Search
+
+Write a program to find if a given string is a substring of another string. Print the starting index of the substring in the string. If not found, print -1.
+
+Example:
+
+    Input: hello world, Substring: world
+
+    Output: 6
+
+7. Count the Number of Words in a String
+
+Write a program to count the number of words in a given string. Assume that words are separated by spaces.
+
+Example:
+
+    Input: This is a test string
+
+    Output: 5
+
+8. Convert a String to Uppercase and Lowercase
+
+Write a program that converts a given string to both uppercase and lowercase. You are not allowed to use the built-in toupper or tolower functions.
+
+Example:
+
+    Input: Hello World
+
+    Output:
+
+        Uppercase: HELLO WORLD
+
+        Lowercase: hello world
+
+9. Remove Whitespace from a String
+
+Write a program to remove all spaces from a string. Do not use built-in functions like strtok.
+
+Example:
+
+    Input: hello world how are you
+
+    Output: helloworldhowareyou
+
+10. Palindrome Ignoring Non-Alphanumeric Characters
+
+Write a program to check if a string is a palindrome, ignoring non-alphanumeric characters and considering case insensitivity.
+
+Example:
+
+    Input: A man, a plan, a canal, Panama
+
+    Output: Yes, it is a palindrome
+
+11. Count the Occurrence of Each Character in a String
+
+Write a program that counts how many times each character appears in a given string.
+
+Example:
+
+    Input: hello
+
+    Output:
+
+        h: 1
+
+        e: 1
+
+        l: 2
+
+        o: 1
+
+12. Find the Longest Word in a String
+
+Write a program to find the longest word in a given string. If multiple words have the same length, return the first one.
+
+Example:
+
+    Input: The quick brown fox jumps over the lazy dog
+
+    Output: quick
+
+13. String Compression (Run-Length Encoding)
+
+Write a program that compresses a string using run-length encoding. The program should replace consecutive duplicate characters with the character followed by the number of occurrences.
+
+Example:
+
+    Input: aaabbbcccaaa
+
+    Output: a3b3c3a3
+
+14. Remove Duplicate Characters in a String
+
+Write a program to remove all duplicate characters from a string while preserving the order of characters in the original string.
+
+Example:
+
+    Input: aabbccddeeff
+
+    Output: abcdef
+
+15. Count Substring Occurrences in a String
+
+Write a program to count how many times a substring occurs in a string.
+
+Example:
+
+    Input: ababab, Substring: ab
+
+    Output: 3
+
+16. Reverse Words in a String
+
+Write a program to reverse each word in a string while keeping the order of the words intact.
+
+Example:
+
+    Input: hello world
+
+    Output: olleh dlrow
+
+17. Check if a String is a Rotational Version of Another
+
+Write a program that checks if one string is a rotational version of another. For example, abcd and dabc are rotations of each other.
+
+Example:
+
+    Input: abcd, dabc
+
+    Output: Yes, they are rotations of each other
+
+18. Find All Palindromes in a String
+
+Write a program that finds all substrings of a given string that are palindromes.
+
+Example:
+
+    Input: aabbcc
+
+    Output: a, bb, cc
+
+19. Convert String to Integer (atoi)
+
+Write a program that converts a string to an integer without using the built-in atoi() function.
+
+Example:
+
+    Input: "12345"
+
+    Output: 12345
+
+20. Find the Frequency of a Word in a String
+
+Write a program to find how many times a specific word appears in a string.
+
+Example:
+
+    Input: hello world hello hello
+
+    Word to find: hello
+
+    Output: 3
