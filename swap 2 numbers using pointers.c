@@ -17,3 +17,22 @@ int main() {
 
     return 0;
 }
+
+
+
+//////////////////////
+#include<stdio.h>
+int main()
+{
+    int temp,a=10;
+    int b=20;
+    int *p=&a;
+    int *q=&b;
+    temp=*p;
+    *p=*q;
+    *q=temp;
+    printf("a=%d",a);
+    printf("b=%d",b);
+    return 0;
+    
+}
