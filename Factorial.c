@@ -10,3 +10,17 @@ int main()
     printf("%d",fac);
     return 0;
 }
+///////////////////////////using while loop ///////////////////////
+#include<stdio.h>
+int main()
+{
+    int n,i,fac=1;
+    scanf("%d",&n);
+    while(n>0)
+    {
+        fac=fac*n;
+        n=n-1;
+    }
+    printf("%d",fac);
+    return 0;
+}
