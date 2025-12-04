@@ -2,19 +2,19 @@
 
 1️⃣ Basics of C
 
-Data types: int, char, float, double, void
+Data types: int, char, float, double, void✅
 
-Constants and literals
+Constants and literals✅
 
-Variables & scope
+Variables & scope✅
 
-Operators: arithmetic, logical, bitwise
+Operators: arithmetic, logical, bitwise✅
 
-Conditional statements: if, else, switch
+Conditional statements: if, else, switch✅
 
-Loops: for, while, do-while
+Loops: for, while, do-while✅
 
-Input/Output: printf, scanf
+Input/Output: printf, scanf✅
 
 These are mandatory, since everything else builds on them.
 
