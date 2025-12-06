@@ -139,3 +139,62 @@ Writing bare-metal code without OS
 Understanding volatile and const in context of hardware
 
 Fixed-point arithmetic (for MCUs without FPU)
+
+
+
+
+
+
+
+
+
+
+
+
+Perfect! Here’s a **complete reference table** for **AND (`&`), OR (`|`), XOR (`^`)** in C for bit manipulation.
+
+---
+
+## **1️⃣ AND (`&`) — “Keep / Clear / Check”**
+
+| Operation                | Formula         | Example                     | Result                       |
+| ------------------------ | --------------- | --------------------------- | ---------------------------- |
+| **Check bit**            | `n & (1<<pos)`  | `n=10 (1010), pos=1`        | `1010 & 0010 = 0010 → bit=1` |
+| **Clear bit**            | `n & ~(1<<pos)` | `n=13 (1101), pos=2`        | `1101 & 1011 = 1001`         |
+| **Mask bits**            | `n & mask`      | `n=13 (1101), mask=7(0111)` | `1101 & 0111 = 0101`         |
+| **Turn off rightmost 1** | `n & (n-1)`     | `n=12(1100)`                | `1100 & 1011 = 1000`         |
+
+---
+
+## **2️⃣ OR (`|`) — “Set / Turn On”**
+
+| Operation             | Formula | Example   | Result                    |       |                              |
+| --------------------- | ------- | --------- | ------------------------- | ----- | ---------------------------- |
+| **Set bit**           | `n      | (1<<pos)` | `n=10(1010), pos=1`       | `1010 | 0010 = 1010` (bit already 1) |
+| **Set bit**           | `n      | (1<<pos)` | `n=10(1010), pos=0`       | `1010 | 0001 = 1011`                 |
+| **Set multiple bits** | `n      | mask`     | `n=8(1000), mask=3(0011)` | `1000 | 0011 = 1011`                 |
+
+---
+
+## **3️⃣ XOR (`^`) — “Toggle / Flip / Swap”**
+
+| Operation                | Formula                       | Example                    | Result                       |        |
+| ------------------------ | ----------------------------- | -------------------------- | ---------------------------- | ------ |
+| **Toggle bit**           | `n ^ (1<<pos)`                | `n=10(1010), pos=1`        | `1010 ^ 0010 = 1000`         |        |
+| **Toggle multiple bits** | `n ^ mask`                    | `n=13(1101), mask=3(0011)` | `1101 ^ 0011 = 1110`         |        |
+| **Swap two bits**        | `if bits differ → n ^ ((1<<p) | (1<<q))`                   | `n=13(1101), swap pos0,pos2` | `1001` |
+
+---
+
+### **Quick Memory Tip**
+
+* **AND `&`** → keep 1, clear 0, check
+* **OR `|`** → set 1
+* **XOR `^`** → flip/toggle
+
+---
+
+If you want, I can **give you 10 ready-to-solve C problems** using only **AND, OR, XOR** for practice — perfect for interviews.
+
+Do you want me to do that?
+
