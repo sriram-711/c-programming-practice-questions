@@ -198,6 +198,10 @@ If you want, I can **give you 10 ready-to-solve C problems** using only **AND, O
 
 Do you want me to do that?
 //////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
 // 🔹 Basic variables
 int var;                          // normal variable → read/write freely
 const int cvar;                   // constant → cannot modify in code
@@ -241,6 +245,12 @@ volatile int *REG = (int*)0x40021000;       // memory-mapped register
 int val = *REG;                             // read from register
 const volatile int *SENSOR = (int*)0x40021004; // read-only hardware sensor
 int val2 = *SENSOR;                         // always reads current value
+
+
+
+
+
+
 //////////////////////////////////////////////////////////////////////////////
 | Type / Declaration           | Value Can Change? | Pointer Can Change? | May Change Externally? |
 | ---------------------------- | ----------------- | ------------------- | ---------------------- |
