@@ -311,3 +311,35 @@ int val2 = *SENSOR;                         // always reads current value
 | `volatile int *REG`          | ✅ Yes             | ✅ Yes               | ✅ Yes (hardware)       |
 | `const volatile int *SENSOR` | ❌ No              | ✅ Yes               | ✅ Yes (hardware)       |
 
+
+
+
+
+
+
+
+
+
+
+
+✔ Data types & qualifiers
+✔ Storage classes
+✔ Const correctness
+✔ Arrays & strings
+✔ Pointer basics
+✔ Advanced pointers
+✔ Memory layout
+✔ Bitwise operations
+✔ Structs, unions, bitfields
+✔ Preprocessor & macros
+✔ Function pointers
+✔ Void pointers
+✔ Undefined behavior
+✔ Typedef usage
+✔ Compilation & linking
+✔ Static vs extern
+✔ Const + volatile combos
+✔ Reentrancy
+✔ Inline functions
+✔ Memory allocation
+✔ Header file architecture
