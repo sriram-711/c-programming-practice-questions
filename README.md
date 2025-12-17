@@ -32,7 +32,7 @@ Recursion (important for algorithmic problems)
 
 inline functions
 
-static functions and variables
+static functions and variables✅
 
 3️⃣ Arrays and Strings
 
