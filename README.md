@@ -36,21 +36,21 @@ static functions and variables
 
 3️⃣ Arrays and Strings
 
-Single and multi-dimensional arrays
+Single and multi-dimensional arrays✅
 
-Strings as character arrays
+Strings as character arrays✅
 
 Pointer and array relationship
 
 Passing arrays to functions
 
-String manipulation: strcpy, strlen, strcat, strcmp (understand, but in embedded often custom implementations are used)
+String manipulation: strcpy, strlen, strcat, strcmp (understand, but in embedded often custom implementations are used)✅
 
 4️⃣ Pointers
 
-Pointers are critical in embedded programming.
+Pointers are critical in embedded programming.✅
 
-Pointer basics: declaration, initialization, dereferencing
+Pointer basics: declaration, initialization, dereferencing✅
 
 Pointer arithmetic
 
@@ -68,7 +68,7 @@ Embedded C may not use dynamic allocation often, but understanding is useful.
 
 5️⃣ Structures & Unions
 
-struct and union
+struct and union✅
 
 Nested structures
 
@@ -78,7 +78,7 @@ Array of structures
 
 typedef for readability
 
-volatile keyword (important for hardware registers)
+volatile keyword (important for hardware registers)✅
 
 6️⃣ Enums and Macros
 
@@ -86,7 +86,7 @@ enum for readable constants
 
 #define macros for constants
 
-const keyword
+const keyword✅
 
 #ifdef, #ifndef, #endif (conditional compilation)
 
@@ -94,9 +94,9 @@ const keyword
 
 Storage classes:
 
-auto, register, static, extern
+auto, register, static, extern✅
 
-Stack vs Heap memory
+Stack vs Heap memory✅
 
 Understanding memory layout: Code, Data, BSS, Stack, Heap
 
@@ -104,13 +104,13 @@ Understanding memory layout: Code, Data, BSS, Stack, Heap
 
 Bitwise operations (very important for embedded)
 
-&, |, ^, ~, <<, >>
+&, |, ^, ~, <<, >>✅
 
 Type casting
 
-Volatile and const usage
+Volatile and const usage✅
 
-Preprocessor directives
+Preprocessor directives✅
 
 Inline assembly (optional for advanced embedded)
 
