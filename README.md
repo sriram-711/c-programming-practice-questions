@@ -20,13 +20,13 @@ These are mandatory, since everything else builds on them.
 
 2️⃣ Functions
 
-Function declaration, definition, and call
+Function declaration, definition, and call✅
 
-Parameter passing:
+Parameter passing:✅
 
-Call by value
+Call by value✅
 
-Call by reference (pointers)
+Call by reference (pointers)✅
 
 Recursion (important for algorithmic problems)
 
