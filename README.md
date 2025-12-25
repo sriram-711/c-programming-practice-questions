@@ -521,24 +521,18 @@ Why bitfields can be dangerous
 
 
 
-linkedlist
-
-1️⃣ Create
-
-2️⃣ Traverse / Print
-
-3️⃣ Count / Length
-
-4️⃣ Insert at beginning
-
-5️⃣ Insert at end
-
-6️⃣ Insert at specific position
-
-7️⃣ Delete from beginning
-
-8️⃣ Delete from end
-
-9️⃣ Delete by value
-
-🔟 Reverse linked list
+┌──────────────────────────────────────────────────────┐
+│                    LINKED LIST                       │
+│                                                      │
+│  1. Create                                           │
+│  2. Traverse / Print                                 │
+│  3. Count / Length                                   │
+│  4. Insert at Beginning                              │
+│  5. Insert at End                                    │
+│  6. Insert at Specific Position                      │
+│  7. Delete from Beginning                            │
+│  8. Delete from End                                  │
+│  9. Delete by Value                                  │
+│ 10. Reverse Linked List                              │
+│                                                      │
+└──────────────────────────────────────────────────────┘
