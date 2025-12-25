@@ -321,6 +321,7 @@ int val2 = *SENSOR;                         // always reads current value
 
 
 
+```
 ┌──────────────────────────────────────────────────────────────┐
 │                    C PROGRAMMING TOPICS                      │
 │                                                              │
@@ -347,6 +348,8 @@ int val2 = *SENSOR;                         // always reads current value
 │  ✔ Header file architecture                                  │
 │                                                              │
 └──────────────────────────────────────────────────────────────┘
+```
+
 
 
 
