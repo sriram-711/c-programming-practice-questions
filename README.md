@@ -143,7 +143,89 @@ Fixed-point arithmetic (for MCUs without FPU)
 
 
 
-
+```
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                        C & EMBEDDED C – COMPLETE ROADMAP                      │
+│                                                                              │
+│  1️⃣ BASICS OF C (MANDATORY FOUNDATION)                                      │
+│     • Data types: int, char, float, double, void ✅                          │
+│     • Constants and literals ✅                                              │
+│     • Variables & scope ✅                                                   │
+│     • Operators: arithmetic, logical, bitwise ✅                            │
+│     • Conditional statements: if, else, switch ✅                           │
+│     • Loops: for, while, do-while ✅                                        │
+│     • Input / Output: printf, scanf ✅                                     │
+│                                                                              │
+│  2️⃣ FUNCTIONS                                                              │
+│     • Function declaration, definition, call ✅                             │
+│     • Parameter passing                                                     │
+│       - Call by value ✅                                                     │
+│       - Call by reference (pointers) ✅                                     │
+│     • Recursion (algorithm importance)                                      │
+│     • inline functions                                                      │
+│     • static functions and variables ✅                                     │
+│                                                                              │
+│  3️⃣ ARRAYS & STRINGS                                                       │
+│     • Single & multi-dimensional arrays ✅                                 │
+│     • Strings as character arrays ✅                                        │
+│     • Pointer and array relationship                                        │
+│     • Passing arrays to functions                                           │
+│     • String functions: strcpy, strlen, strcat, strcmp ✅                  │
+│                                                                              │
+│  4️⃣ POINTERS (CRITICAL FOR EMBEDDED)                                       │
+│     • Pointer basics: declaration, initialization, dereferencing ✅        │
+│     • Pointer arithmetic                                                    │
+│     • Pointer to pointer                                                    │
+│     • Function pointers (callbacks)                                         │
+│     • Pointers and arrays                                                   │
+│     • Dynamic memory allocation                                             │
+│       - malloc(), calloc(), realloc(), free()                               │
+│     • Note: Rare in embedded, but conceptually important                    │
+│                                                                              │
+│  5️⃣ STRUCTURES & UNIONS                                                    │
+│     • struct and union ✅                                                   │
+│     • Nested structures                                                     │
+│     • Bit fields (register manipulation)                                   │
+│     • Array of structures                                                   │
+│     • typedef for readability                                               │
+│     • volatile keyword (hardware registers) ✅                             │
+│                                                                              │
+│  6️⃣ ENUMS & MACROS                                                         │
+│     • enum for readable constants                                           │
+│     • #define macros                                                        │
+│     • const keyword ✅                                                      │
+│     • #ifdef, #ifndef, #endif (conditional compilation)                    │
+│                                                                              │
+│  7️⃣ MEMORY MANAGEMENT & STORAGE CLASSES                                    │
+│     • Storage classes: auto, register, static, extern ✅                   │
+│     • Stack vs Heap memory ✅                                               │
+│     • Memory layout: Code, Data, BSS, Stack, Heap                           │
+│                                                                              │
+│  8️⃣ ADVANCED C CONCEPTS                                                    │
+│     • Bitwise operations (VERY IMPORTANT)                                  │
+│       - &, |, ^, ~, <<, >> ✅                                              │
+│     • Type casting                                                         │
+│     • volatile and const usage ✅                                          │
+│     • Preprocessor directives ✅                                           │
+│     • Inline assembly (optional)                                           │
+│                                                                              │
+│  9️⃣ DATA STRUCTURES (EMBEDDED FRIENDLY)                                    │
+│     • Arrays, linked lists                                                  │
+│     • Stack and queue                                                       │
+│     • Circular queue (UART, SPI buffers)                                   │
+│     • Basic sorting & searching algorithms                                  │
+│     • Hash tables (optional)                                                │
+│                                                                              │
+│ 🔟 EMBEDDED C SPECIFIC CONCEPTS                                             │
+│     • Register-level programming (pointers)                                │
+│     • GPIO, Timers, ADC / DAC control                                       │
+│     • Interrupt handling (ISRs)                                            │
+│     • Bare-metal programming (no OS)                                       │
+│     • volatile & const in hardware context                                  │
+│     • Fixed-point arithmetic (MCUs without FPU)                             │
+│                                                                              │
+└──────────────────────────────────────────────────────────────────────────────┘
+```
 
 
 
