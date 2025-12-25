@@ -520,7 +520,7 @@ Accessing hardware registers using bitfields
 Why bitfields can be dangerous
 
 
-
+```text
 ┌──────────────────────────────────────────────────────┐
 │                    LINKED LIST                       │
 │                                                      │
@@ -536,3 +536,5 @@ Why bitfields can be dangerous
 │ 10. Reverse Linked List                              │
 │                                                      │
 └──────────────────────────────────────────────────────┘
+```
+
