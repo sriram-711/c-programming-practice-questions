@@ -190,9 +190,6 @@ int val2 = *SENSOR;                         // always reads current value
 ```
 
 
-
-
-//////////////////////////////////////////////////////////////////////////////
 | Type / Declaration           | Value Can Change? | Pointer Can Change? | May Change Externally? |
 | ---------------------------- | ----------------- | ------------------- | ---------------------- |
 | `int var`                    | ✅ Yes             | –                   | ❌ No                   |
@@ -215,14 +212,6 @@ int val2 = *SENSOR;                         // always reads current value
 | `const volatile int **cvpp`  | ❌ No              | ✅ Yes               | ✅ Yes                  |
 | `volatile int *REG`          | ✅ Yes             | ✅ Yes               | ✅ Yes (hardware)       |
 | `const volatile int *SENSOR` | ❌ No              | ✅ Yes               | ✅ Yes (hardware)       |
-
-
-
-
-
-
-
-
 
 
 
