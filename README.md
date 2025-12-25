@@ -321,9 +321,6 @@ int val2 = *SENSOR;                         // always reads current value
 
 
 
-
-## 📘 C Programming / Embedded C Topics
-
 ┌──────────────────────────────────────────────────────────────┐
 │                    C PROGRAMMING TOPICS                      │
 │                                                              │
@@ -343,25 +340,13 @@ int val2 = *SENSOR;                         // always reads current value
 │  ✔ Typedef usage                                             │
 │  ✔ Compilation & linking                                     │
 │  ✔ Static vs extern                                          │
-│  ✔ Const + volatile combinations                             │
+│  ✔ Const + volatile combos                                   │
 │  ✔ Reentrancy                                                │
 │  ✔ Inline functions                                          │
-│  ✔ Dynamic memory allocation                                 │
+│  ✔ Memory allocation                                         │
 │  ✔ Header file architecture                                  │
 │                                                              │
 └──────────────────────────────────────────────────────────────┘
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
