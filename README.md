@@ -353,167 +353,100 @@ int val2 = *SENSOR;                         // always reads current value
 
 
 
-
-
-
-
-
-1️⃣ C Basics (Strong Foundation)
-
-Keywords
-
-Data types & sizes
-
-Operators (arithmetic, logical, relational)
-
-Control flow
-
-Loops
-
-switch-case
-
-Type casting
-
-Integer promotions
-
-Endianness
-
-2️⃣ Storage Classes
-
-auto
-
-static
-
-extern
-
-register
-
-scope, lifetime, linkage
-
-3️⃣ Const, Volatile, Restrict
-
-const int *p
-
-int * const p
-
-const int * const p
-
-Why volatile for hardware registers
-
-Why volatile in ISR/shared variables
-
-const volatile registers
-
-restrict (optimization keyword)
-
-4️⃣ Arrays & Strings
-
-1D, 2D arrays
-
-Array vs pointer difference
-
-Array passing to function
-
-String operations
-
-Common bugs: overflow, no null terminator
-
-5️⃣ Pointer Mastery
-Basic pointers
-
-Pointer declaration
-
-Pointer arithmetic
-
-NULL, wild, dangling pointers
-
-Pointer to pointer (int **p)
-
-Function arguments with pointers
-
-Advanced pointers
-
-Pointers to arrays
-
-Arrays of pointers
-
-Pointer to functions
-
-void * usage
-
-Memory-mapped registers using pointers
-
-6️⃣ Memory Management
-
-Stack vs heap
-
-Static memory
-
-malloc, calloc, free
-
-Why dynamic memory is avoided in embedded
-
-Fragmentation
-
-Memory leaks
-
-7️⃣ Memory Layout of C Program
-
-Text/code
-
-.data
-
-.bss
-
-Static
-
-Heap
-
-Stack
-
-Linker overview
-
-8️⃣ Structures & Unions
-
-Struct declaration
-
-Nested structs
-
-Struct passing to functions
-
-Padding & alignment
-
-#pragma pack
-
-Unions & overlapping memory
-
-Memory mapping with structs
-
-9️⃣ Bitwise Operations (Very Important)
-
-AND, OR, XOR
-
-NOT
-
-Left/right shift
-
-Bit masking
-
-Set/Clear/Toggle/Check macros
-
-Use in register-level programming
-
-🔟 Bitfields
-
-Syntax
-
-Signed/unsigned bitfields
-
-Alignment issues
-
-Accessing hardware registers using bitfields
-
-Why bitfields can be dangerous
+```
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                          C PROGRAMMING – CORE TOPICS                          │
+│                                                                              │
+│  1️⃣ C BASICS (STRONG FOUNDATION)                                             │
+│     • Keywords                                                               │
+│     • Data types & sizes                                                     │
+│     • Operators (arithmetic, logical, relational)                            │
+│     • Control flow                                                           │
+│     • Loops                                                                  │
+│     • switch-case                                                           │
+│     • Type casting                                                           │
+│     • Integer promotions                                                     │
+│     • Endianness                                                             │
+│                                                                              │
+│  2️⃣ STORAGE CLASSES                                                         │
+│     • auto                                                                  │
+│     • static                                                                │
+│     • extern                                                                │
+│     • register                                                              │
+│     • Scope, lifetime, linkage                                               │
+│                                                                              │
+│  3️⃣ CONST, VOLATILE, RESTRICT                                               │
+│     • const int *p                                                          │
+│     • int * const p                                                         │
+│     • const int * const p                                                   │
+│     • Why volatile for hardware registers                                   │
+│     • volatile in ISR / shared variables                                    │
+│     • const volatile registers                                              │
+│     • restrict (optimization keyword)                                       │
+│                                                                              │
+│  4️⃣ ARRAYS & STRINGS                                                        │
+│     • 1D, 2D arrays                                                         │
+│     • Array vs pointer difference                                           │
+│     • Array passing to function                                             │
+│     • String operations                                                     │
+│     • Common bugs: overflow, no null terminator                              │
+│                                                                              │
+│  5️⃣ POINTER MASTERY                                                         │
+│     • Basic pointers                                                        │
+│     • Pointer declaration                                                   │
+│     • Pointer arithmetic                                                    │
+│     • NULL, wild, dangling pointers                                         │
+│     • Pointer to pointer (int **p)                                          │
+│     • Function arguments with pointers                                      │
+│     • Pointers to arrays                                                     │
+│     • Arrays of pointers                                                     │
+│     • Pointer to functions                                                   │
+│     • void * usage                                                           │
+│     • Memory-mapped registers using pointers                                 │
+│                                                                              │
+│  6️⃣ MEMORY MANAGEMENT                                                       │
+│     • Stack vs heap                                                         │
+│     • Static memory                                                         │
+│     • malloc, calloc, free                                                   │
+│     • Why dynamic memory avoided in embedded                                 │
+│     • Fragmentation                                                         │
+│     • Memory leaks                                                          │
+│                                                                              │
+│  7️⃣ MEMORY LAYOUT OF C PROGRAM                                              │
+│     • Text / Code segment                                                    │
+│     • .data                                                                 │
+│     • .bss                                                                  │
+│     • Static                                                               │
+│     • Heap                                                                 │
+│     • Stack                                                                │
+│     • Linker overview                                                       │
+│                                                                              │
+│  8️⃣ STRUCTURES & UNIONS                                                     │
+│     • Struct declaration                                                    │
+│     • Nested structs                                                        │
+│     • Struct passing to functions                                           │
+│     • Padding & alignment                                                   │
+│     • #pragma pack                                                         │
+│     • Unions & overlapping memory                                           │
+│     • Memory mapping with structs                                           │
+│                                                                              │
+│  9️⃣ BITWISE OPERATIONS (VERY IMPORTANT)                                    │
+│     • AND, OR, XOR                                                          │
+│     • NOT                                                                  │
+│     • Left / Right shift                                                    │
+│     • Bit masking                                                          │
+│     • Set / Clear / Toggle / Check macros                                   │
+│     • Register-level programming                                            │
+│                                                                              │
+│ 🔟 BITFIELDS                                                                │
+│     • Syntax                                                                │
+│     • Signed / unsigned bitfields                                           │
+│     • Alignment issues                                                      │
+│     • Accessing hardware registers using bitfields                           │
+│     • Why bitfields can be dangerous                                        │
+│                                                                              │
+└──────────────────────────────────────────────────────────────────────────────┘
+```
 
 
 ```text
