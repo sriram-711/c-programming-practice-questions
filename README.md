@@ -322,27 +322,35 @@ int val2 = *SENSOR;                         // always reads current value
 
 
 
-✔ Data types & qualifiers
-✔ Storage classes
-✔ Const correctness
-✔ Arrays & strings
-✔ Pointer basics
-✔ Advanced pointers
-✔ Memory layout
-✔ Bitwise operations
-✔ Structs, unions, bitfields
-✔ Preprocessor & macros
-✔ Function pointers
-✔ Void pointers
-✔ Undefined behavior
-✔ Typedef usage
-✔ Compilation & linking
-✔ Static vs extern
-✔ Const + volatile combos
-✔ Reentrancy
-✔ Inline functions
-✔ Memory allocation
-✔ Header file architecture
+## 📘 C Programming / Embedded C Topics
+
+┌──────────────────────────────────────────────────────────────┐
+│                    C PROGRAMMING TOPICS                      │
+│                                                              │
+│  ✔ Data types & qualifiers                                   │
+│  ✔ Storage classes                                           │
+│  ✔ Const correctness                                         │
+│  ✔ Arrays & strings                                          │
+│  ✔ Pointer basics                                            │
+│  ✔ Advanced pointers                                         │
+│  ✔ Memory layout                                             │
+│  ✔ Bitwise operations                                        │
+│  ✔ Structs, unions, bitfields                                │
+│  ✔ Preprocessor & macros                                     │
+│  ✔ Function pointers                                         │
+│  ✔ Void pointers                                             │
+│  ✔ Undefined behavior                                        │
+│  ✔ Typedef usage                                             │
+│  ✔ Compilation & linking                                     │
+│  ✔ Static vs extern                                          │
+│  ✔ Const + volatile combinations                             │
+│  ✔ Reentrancy                                                │
+│  ✔ Inline functions                                          │
+│  ✔ Dynamic memory allocation                                 │
+│  ✔ Header file architecture                                  │
+│                                                              │
+└──────────────────────────────────────────────────────────────┘
+
 
 
 
