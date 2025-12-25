@@ -518,3 +518,17 @@ Alignment issues
 Accessing hardware registers using bitfields
 
 Why bitfields can be dangerous
+
+
+
+linkedlist
+1️⃣ Create
+2️⃣ Traverse / Print
+3️⃣ Count / Length
+4️⃣ Insert at beginning
+5️⃣ Insert at end
+6️⃣ Insert at specific position
+7️⃣ Delete from beginning
+8️⃣ Delete from end
+9️⃣ Delete by value
+🔟 Reverse linked list
