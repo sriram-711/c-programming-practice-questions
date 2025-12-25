@@ -132,10 +132,10 @@ Perfect! Here’s a **complete reference table** for **AND (`&`), OR (`|`), XOR 
 
 ---
 
-//////////////////////////////////////////////////////////////////////////////////////////
 
 
 
+```
 
 // ================================
 // Embedded C: Pointers & Qualifiers
@@ -187,7 +187,7 @@ const volatile int *SENSOR = (int*)0x40021004; // read-only hardware sensor
 int val2 = *SENSOR;                         // always reads current value
 
 
-
+```
 
 
 
