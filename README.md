@@ -361,3 +361,21 @@ int val2 = *SENSOR;                         // always reads current value
 └──────────────────────────────────────────────────────┘
 ```
 
+
+```
+
+
+Topic	Depth Needed
+Arrays	⭐⭐⭐⭐⭐
+Pointers	⭐⭐⭐⭐⭐
+Structures	⭐⭐⭐⭐⭐
+Linked List	⭐⭐⭐⭐
+Stack	⭐⭐⭐⭐
+Queue	⭐⭐⭐⭐
+Sorting	⭐⭐⭐
+Recursion	⭐⭐
+Trees	❌
+Graphs	❌
+
+
+```
